@@ -28,3 +28,5 @@ pais = datos.groupby('Country/Region')[['Confirmed','Deaths']].sum()
 resultado = pais.nlargest(10, 'Confirmed')
 print(resultado)
 resultado.plot(kind='bar')
+
+url='https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/madrid-airbnb1.ipynb#scrollTo=xcD_-vqB5z2k'
